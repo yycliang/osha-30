@@ -1,0 +1,21 @@
+:root{
+    --main:#0d3041;
+}
+
+.top-btn{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1;
+  background-color: var(--main);
+  color: white;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.top-btn:hover{
+    background-color:white;
+    color: var(--main);
+}

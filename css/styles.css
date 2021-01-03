@@ -73,7 +73,9 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-
+.main-color{
+  color: var(--main);
+}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -4514,7 +4516,7 @@ input[type=button].btn-block {
 
 .accordion {
   overflow-anchor: none;
-  background-color: rgba(13, 48, 65, 0.11);
+  background-color: rgba(13, 48, 65, 0.055);
   padding: 5rem;
 }
 .accordion > .card {
@@ -4533,7 +4535,21 @@ input[type=button].btn-block {
   border-radius: 0;
   margin-bottom: -1px;
 }
+/* for the accordion content text color */
+.accordion-item{
+  color: var(--main); 
+  background-color: white;
+}
+/* for the accordion bg color */
+.accordion-header{
+  color: var(--main)  ;
+  background-color: white;
+}
 
+.accordion-button:not(.collapsed) {
+    color: var(--main) !important;
+    background-color: rgb(231, 241, 255);
+}
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -9989,7 +10005,7 @@ p {
 }
 
 .page-section {
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
