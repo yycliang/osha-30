@@ -19,3 +19,27 @@
     background-color:white;
     color: var(--main);
 }
+
+.videoRes{
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.videoRes iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 90%;
+}
+
+@media only screen and (max-width: 700px){
+    .videoRes iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .accordion{
+        padding: 2rem;
+    }
+}
