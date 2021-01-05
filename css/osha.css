@@ -2,6 +2,9 @@
     --main:#0d3041;
 }
 
+h2{
+    margin-top: 1rem !important;
+}
 .top-btn{
   position: fixed;
   bottom: 2rem;
