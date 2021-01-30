@@ -50,3 +50,8 @@ h2{
 .featurette{
     padding: 0 5rem 2rem 5rem;
 }
+
+.nodeco{
+    text-decoration: none;
+    list-style-type: none;
+}
